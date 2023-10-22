@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: node_api-app
+  template:
+    metadata:
+      labels:
+        app: node_api-app
+    spec:
+      containers:
+      - name: nodeapi-simple
+        image: docker.io/furkannyyilmaz/node_api:latest
+        ports:
+        - containerPort: 8080
