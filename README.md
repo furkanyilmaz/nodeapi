@@ -21,4 +21,4 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 argocd url: https://localhost:31991/applications/nodeapiv3?resource=
 
 
-nodeapi port : https://127.0.0.1:6443/
+
