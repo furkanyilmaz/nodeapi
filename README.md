@@ -1,5 +1,3 @@
-# Node_API
-Node API with Express and Postgres
 #Install Docker on your local pc
 #Clone this project to your local.
 - Docker build -t furkannyyilmaz/node-api:latest
@@ -21,4 +19,4 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 argocd url: https://localhost:31991/applications/nodeapiv3?resource=
 
 
-
+nodeapi port : https://127.0.0.1:6443/
