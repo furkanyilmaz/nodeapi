@@ -7,6 +7,6 @@ spec:
   selector:
     app: node_api-app
   ports:
-      - nodePort: 31000
+      - nodePort: 31001
         protocol: TCP
-        port: 8072
+        port: 8073
